@@ -1,0 +1,24 @@
+// Do while loop and while loop are similar.difference beetwen him that
+// do while loop can do the operation in once whatever been condition.
+
+// Решение задачи на поиск суммы чисел от 1 до 1000, с применением цикла do while
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int i = 0;
+    int sum;
+    
+    do
+    {
+        i++;
+        sum += i;
+    }
+    while(i < 1000);
+    
+    cout << "sum = " << sum << endl;
+    
+    return 0;
+}
